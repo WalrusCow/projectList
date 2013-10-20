@@ -13,7 +13,7 @@
 (defn baseConverter [x base]
   (loop [x x s '()]
     (if (zero? x) (apply str s)
-      (recur (/ (- x (mod x base)) base) (conj s (mod x base))))))
+      (recur (quot x base) (conj s (mod x base))))))
 
 (defn baseToDec [x base]
   (loop [s (reverse (strToIntLst x)) ans 0 i 0]
