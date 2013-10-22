@@ -1,4 +1,4 @@
-[Martyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
+eMartyr2’s Mega Project List](http://www.dreamincode.net/forums/topic/78802-martyr2s-mega-project-ideas-list/).
 =====================
 
 Numbers
@@ -65,7 +65,7 @@ Graphs
 Text
 ---------
 
-**Reverse a String** – Enter a string and the program will reverse it and print it out.
+~~**Reverse a String**~~ – Enter a string and the program will reverse it and print it out.
 
 [**Pig Latin**](http://en.wikipedia.org/wiki/Pig_latin).
 
@@ -73,7 +73,7 @@ Text
 
 ~~**Check if Palindrome**~~.
 
-**Count Words in a String** – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
+~~**Count Words in a String**~~ – Counts the number of individual words in a string. For added complexity read these strings in from a text file and generate a summary.
 
 **Text Editor** – Notepad style application that can open, edit, and save text documents. Add syntax highlighting and other features.
 
