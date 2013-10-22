@@ -1,5 +1,6 @@
 (ns word-count.core
   (:gen-class))
+(use 'clojure.java.io)
 
 (defn whitespace? [s]
   ((set " \n\t\r") s))
@@ -12,5 +13,9 @@
         (recur true (rest s) (if whitespace c (inc c)))
         (recur false (rest s) c)))))
 
+(defn word-count-file [fileName]
+  (with-open [rdr (reader fileName)]
+    (reduce + 0 (map word-count (line-seq rdr)))))
+
 (defn -main [s & args]
-  (println (word-count s)))
+  (println (word-count-file s)))
